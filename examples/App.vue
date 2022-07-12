@@ -1,11 +1,11 @@
 <template>
     <div class="examples">
         <div class="examples-header">
-            <a href="https://github.com/hujiulong/vue-3d-model" class="title">Vue3DModel</a>
-            <a href="https://github.com/hujiulong/vue-3d-model" class="github">View on GitHub</a>
+            <a href="https://github.com/hujiulong/vue-3d-model" class="title">华星设备3D效果展示</a>
+            <!-- <a href="https://github.com/hujiulong/vue-3d-model" class="github">View on GitHub</a> -->
         </div>
         <div class="examples-content">
-            <ul class="examples-menu">
+            <!-- <ul class="examples-menu">
                 <li class="examples-menu-title">Examples</li>
                 <li class="examples-menu-item">
                     <router-link to="demo-basic">basic</router-link>
@@ -51,7 +51,7 @@
                 <li class="examples-menu-item">
                     <router-link to="demo-gltf">glTF Model (.gltf)</router-link>
                 </li>
-            </ul>
+            </ul> -->
             <div class="examples-pages">
                 <router-view></router-view>
             </div>

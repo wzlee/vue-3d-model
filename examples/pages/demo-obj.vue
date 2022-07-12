@@ -1,7 +1,7 @@
 <template>
   <demo-block :vue-code="code" :html-code="htmlCode">
     <template slot="preview">
-      <model-obj :backgroundAlpha="0" @on-load="onLoad" src="static/models/obj/tree.obj"></model-obj>
+      <model-obj :backgroundAlpha="0" @on-load="onLoad" src="static/models/obj/irb360-1600.obj"></model-obj>
       <div class="example-loading" v-show="loading"></div>
     </template>
   </demo-block>
@@ -13,7 +13,7 @@ import ModelObj from '../../src/model-obj.vue';
 
 const code = `
 <template>
-    <model-obj src="static/models/obj/tree.obj"></model-obj>
+    <model-obj src="static/models/obj/irb360-1600.obj"></model-obj>
 </template>
 
 <script>
@@ -30,7 +30,7 @@ const code = `
 const htmlCode = `
 <body>
     <div id="app">
-        <model-obj src="static/models/obj/tree.obj"></model-obj>
+        <model-obj src="static/models/obj/irb360-1600.obj"></model-obj>
     </div>
     #scripts#
     <script>

@@ -3,7 +3,7 @@
     <div class="demo-block-preview">
       <slot name="preview"></slot>
     </div>
-    <div class="demo-block-code">
+    <!-- <div class="demo-block-code">
       <div class="demo-block-code-box">
         <h3>Vue Component & Webpack</h3>
         <div class="demo-block-code-box-content">
@@ -20,7 +20,7 @@
           </pre>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -70,10 +70,10 @@ export default {
 }
 
 .demo-block .demo-block-preview {
-  width: 50%;
+  width: 100%;
   height: 100%;
-  float: left;
-  position: relative;
+  /* float: left; */
+  /* position: relative; */
 }
 
 .demo-block .demo-block-code {

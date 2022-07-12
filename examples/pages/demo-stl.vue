@@ -1,7 +1,7 @@
 <template>
   <demo-block :vue-code="code" :html-code="htmlCode">
     <template slot="preview">
-      <model-stl :backgroundAlpha="0" @on-load="onLoad" src="static/models/stl/gear.stl"></model-stl>
+      <model-stl :backgroundAlpha="0" @on-load="onLoad" src="static/models/stl/irb360-1600.stl"></model-stl>
       <div class="example-loading" v-show="loading"></div>
     </template>
   </demo-block>
